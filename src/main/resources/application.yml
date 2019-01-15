@@ -1,0 +1,8 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore/camon.p12
+    key-alias: camon
+    key-store-password: 123456
+    key-store-type: PKCS12
